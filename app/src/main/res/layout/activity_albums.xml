@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/songs_toolbar"
+        style="@style/ToolBarMainStyle">
+
+        <ImageButton
+            android:id="@+id/return_button"
+            style="@style/ImageButtonBackStyle"
+            android:src="@drawable/baseline_arrow_back_ios_black_18dp" />
+
+        <TextView
+            style="@style/TextViewSecondaryActivityTitleStyle"
+            android:text="@string/list_of_albums"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/ListViewSubtitleLayout"
+        android:text="@string/artist_name"/>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListViewMainStyle" />
+
+</LinearLayout>

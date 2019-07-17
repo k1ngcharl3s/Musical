@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Menu Item Style -->
+    <style name="MenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/menu_item_height</item>
+        <item name="android:layout_marginBottom">@dimen/menu_item_margin_top_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/menu_item_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/menu_item_margin_left_right</item>
+        <item name="android:layout_marginTop">@dimen/menu_item_margin_top_bottom</item>
+        <item name="android:background">@color/menu_item_background_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/menu_item_left_padding</item>
+        <item name="android:textColor">@color/menu_item_color</item>
+        <item name="android:textSize">@dimen/menu_item_text_size</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="ToolBarMainStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--- ImageButton for "back" button -->
+    <style name="ImageButtonBackStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/app_title_color</item>
+        <item name="android:textSize">@dimen/menu_item_text_size</item>
+    </style>
+
+    <!-- TextView for second activity title -->
+    <style name="TextViewSecondaryActivityTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/app_title_color</item>
+        <item name="android:textSize">@dimen/menu_item_text_size</item>
+    </style>
+
+    <!-- ListView subtitle -->
+    <style name="ListViewSubtitleLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textSize">@dimen/menu_item_text_size</item>
+    </style>
+
+    <!-- ListView item -->
+    <style name="ListViewMainStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

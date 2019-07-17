@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Musical</string>
+    <string name="image_description"></string>
+    <string name="app_title">Nipsey Tribute</string>
+
+    <string name="list_of_songs">List of Songs</string>
+    <string name="list_of_artist">List of Nipsey</string>
+    <string name="list_of_albums">List of Albums</string>
+    <string name="currently_playing">Currently Playing</string>
+
+
+    <string name="artist_nipsey_hussle">Nipsey Hussle</string>
+
+    <string name="back_button">Back button</string>
+    <string name="play_button">Play button</string>
+
+    <string name="artist_name">Nipsey Hussle</string>
+    <string name="album_name">Album</string>
+    <string name="song_name">Song Title</string>
+    <string name="song_length">Length</string>
+
+
+
+    <string name="album_mailbox_money">Mailbox Money</string>
+    <string name="album_name_crenshaw">Crenshaw</string>
+    <string name="album_victory_lap">Victory Lap</string>
+
+    <string name="song_killah">Killa</string>
+    <string name="song_hunnit">A Hunnit a Show</string>
+    <string name="song_between">Between Us</string>
+    <string name="song_checc">Checc Me Out</string>
+    <string name="song_right">Get Right</string>
+    <string name="song_mornin">4 In The Morning</string>
+    <string name="song_days">No Days Off</string>
+    <string name="song_victory">Victory Lap</string>
+    <string name="song_rap">Rap Ngas</string>
+    <string name="song_young">Young Nga</string>
+    <string name="song_bl2">Blue Laces 2</string>
+    <string name="song_big">Real Big</string>
+
+    <string name="length_four_minute_forty">4:40</string>
+    <string name="length_two_minute_forty_three">2:43</string>
+    <string name="length_four_minute_fifteen">4:15</string>
+    <string name="length_four_minute_seven">4:07</string>
+    <string name="length_four_minute_sixteen">4:16</string>
+    <string name="length_three_minute_twenty">3:20</string>
+    <string name="length_four_minute_six">4:06</string>
+    <string name="length_three_minute_fifty_eigth">3:58</string>
+    <string name="length_three_minute_forty_six">3:46</string>
+    <string name="length_three_minute_fifty_six">3:56</string>
+    <string name="length_four_minute_ten">4:10</string>
+    <string name="length_six_twenty_two">6:22</string>
+
+</resources>
